@@ -6,7 +6,11 @@
       <description> Tostadas huntadas con foie a la plancha con cebolla caramelizada </description>
       <precio>9,90€</precio>
       <calorias>200 calorias</calorias>
-      <caracteristicas></caracteristicas>
+      <caracteristicas>
+      <item>
+
+      </item>
+      </caracteristicas>
     </plato>
     <plato tipo8="Entrantes">
       <title>Patatas bravas</title>
@@ -15,20 +19,17 @@
       <calorias>760 calorias el plato completo</calorias>
       <caracteristicas> </caracteristicas>
     </plato>
-    <plato tipo8="Entrantes">
-      <title>Patatas Hannibal</title>
-      <description> Patatas fritas rusticas con salsa hannibal</description>
-      <precio>4,90€</precio>
-      <calorias>312 calorias</calorias>
-      <caracteristicas></caracteristicas>
-    </plato>
        
     <plato tipo8="Entrantes">
       <title> Pollo Cracket</title>
-      <description>7 tiras de Pollo Cracket con salsa cesa</description>
+      <description>7 tiras de Pollo Cracket con salsa cesar</description>
       <precio>8,50€</precio>
       <calorias>312 calorias</calorias>
-      <caracteristicas></caracteristicas>
+      <caracteristicas>
+       <item tema="carne">
+
+      </item>
+      </caracteristicas>
     </plato>
 
     <plato tipo8="Entrantes">

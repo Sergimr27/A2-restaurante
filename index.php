@@ -56,6 +56,9 @@ foreach($menu->plato as $plato){
         echo $plato->calorias;
         echo "<br>";
         echo "<br>";
+        if(isset($plato->caracteristicas->item['tema'])==(string)'carne'){
+            echo '<img src="img/carne.svg" alt="">';
+            }
     }
 
    
@@ -232,6 +235,15 @@ foreach($menu->plato as $plato){
     }
 
    
+}
+if(isset($plato->caracteristicas->item['tema'])==(string)'carne'){
+    echo '<img src="img/carne.svg" alt="">';
+    }
+if(isset($plato->caracteristicas->item['tema1'])==(string)'picante'){
+    echo '<img src="img/picante.svg" alt="">';
+}
+if(isset($plato->caracteristicas->item['tema2'])==(string)'estrella'){
+    echo '<img src="img/estrella.svg" alt="">';
 }
 /* foreach($menu->plato as $plato){
     echo $plato->title.'............................ '.$plato->precio;;
