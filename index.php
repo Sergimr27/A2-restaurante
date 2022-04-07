@@ -98,7 +98,7 @@ foreach($menu->plato as $plato){
         array_push($aux,(string)$plato['tipo12']);
     }
     if($plato['tipo12']=='Hamburguesas'){
-        echo $plato->title.'............................ '.$plato->precio;;
+        echo $plato->title.'....................... '.$plato->precio;;
         echo "<br>";
         echo $plato->description;
         echo "<br>";
@@ -174,7 +174,7 @@ foreach($menu->plato as $plato){
         array_push($aux,(string)$plato['tipo13']);
     }
     if($plato['tipo13']=='Sin gluten'){
-        echo $plato->title.'............................ '.$plato->precio;;
+        echo $plato->title.'....................... '.$plato->precio;;
         echo "<br>";
         echo $plato->description;
         echo "<br>";

@@ -219,7 +219,7 @@
   <plato tipo13="Sin gluten">
       <title> Hamburguesa sin gluten</title>
       <description>Pide la hamburguesa que mas te guste de la carta sin gluten</description>
-      <precio>Depende la hamburguesa</precio>
+      <precio>Depende de la hamburguesa</precio>
       <calorias>243 calorias</calorias>
       <caracteristicas></caracteristicas>
   </plato>
