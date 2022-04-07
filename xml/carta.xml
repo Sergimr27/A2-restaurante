@@ -17,7 +17,9 @@
       <description> Patatas fritas rusticas con salsa hannibal</description>
       <precio>4,90€</precio>
       <calorias>760 calorias el plato completo</calorias>
-      <caracteristicas> </caracteristicas>
+      <caracteristicas> 
+      <item tema5="star"></item>
+      </caracteristicas>
     </plato>
        
     <plato tipo8="Entrantes">
@@ -26,9 +28,7 @@
       <precio>8,50€</precio>
       <calorias>312 calorias</calorias>
       <caracteristicas>
-       <item tema="carne">
-
-      </item>
+       <item tema="carne"></item>
       </caracteristicas>
     </plato>
 
@@ -37,7 +37,11 @@
       <description>8 piezas de alitas de pollo con salsa picante</description>
       <precio>7,90€</precio>
       <calorias>239 calorias</calorias>
-      <caracteristicas></caracteristicas>
+     
+  
+      <caracteristicas>
+       <item tema="carne" tema2="picante" tema5="star"></item>
+      </caracteristicas>
     </plato>
 
     <plato tipo8="Entrantes">
@@ -45,7 +49,9 @@
       <description>Totopos con dip de cheddar, pico de gallo, sofrito de ternera, guacamole y jalapeños</description>
       <precio>9,90€</precio>
       <calorias>306 calorias</calorias>
-      <caracteristicas></caracteristicas>
+      <caracteristicas>
+      <item tema2="picante"></item>
+      </caracteristicas>
     </plato>
 
 
@@ -54,7 +60,9 @@
       <description>Tomate, mozzarella y jamón dulce</description>
       <precio>9,10€</precio>
       <calorias>266 calorias</calorias>
-      <caracteristicas></caracteristicas>
+      <caracteristicas>
+      <item tema3="pizza" tema="carne"></item>
+      </caracteristicas>
     </plato>
 
     <plato tipo9="Pizzas">
@@ -62,23 +70,29 @@
       <description>Tomate, mozzarella y pepperoni (salami)</description>
       <precio>9,30€</precio>
       <calorias>320 calorias</calorias>
-      <caracteristicas></caracteristicas>
+      <caracteristicas>
+      <item tema="carne" tema3="pizza" tema2="picante"></item>
+      </caracteristicas>
     </plato>
 
     <plato tipo9="Pizzas">
       <title> Pizza Beicon</title>
-      <description>Tomate, mozzarella y pepperoni (salami)</description>
+      <description>Tomate, mozzarella, beicon y olivas negras</description>
       <precio>9,20€</precio>
       <calorias>300 calorias</calorias>
-      <caracteristicas></caracteristicas>
+      <caracteristicas>
+            <item tema="carne" tema3="pizza"></item>
+      </caracteristicas>
     </plato>
 
     <plato tipo9="Pizzas">
       <title>Pizza Carbonara</title>
-      <description>Tomate, mozzarella y pepperoni (salami)</description>
+      <description>Salsa carbonara casera (nata, cebolla y bacon), mozzarella y pollo</description>
       <precio>10,95€</precio>
       <calorias>260 calorias</calorias>
-      <caracteristicas></caracteristicas>
+       <caracteristicas>
+            <item tema="carne" tema3="pizza"></item>
+      </caracteristicas>
     </plato>
    
    <plato tipo9="Pizzas">
@@ -86,7 +100,9 @@
       <description>Tomate, mozzarella, en frio jamón serrano, rucula y parmesano</description>
       <precio> 11,20€</precio>
       <calorias>275 calorias</calorias>
-      <caracteristicas></caracteristicas>
+       <caracteristicas>
+           <item tema="carne" tema3="pizza"></item>
+      </caracteristicas>
     </plato>
 
    <plato tipo9="Pizzas">
@@ -94,7 +110,9 @@
       <description>Tomate, mozzarella, "alambre de arranchera" (carne de ternera marinada), huevo y chispitas de gorgonzola</description>
       <precio> 13,50€</precio>
       <calorias>310 calorias</calorias>
-      <caracteristicas></caracteristicas>
+       <caracteristicas>
+           <item tema="carne" tema3="pizza"></item>
+      </caracteristicas>
     </plato>
 
     <plato tipo9="Pizzas">
@@ -102,7 +120,9 @@
       <description>Salsa de pisto con chile picante, mozzarella, pollo, maiz y olivas negras</description>
       <precio> 11,95€</precio>
       <calorias>310 calorias</calorias>
-      <caracteristicas></caracteristicas>
+      <caracteristicas>
+            <item tema="carne" tema3="pizza" tema2="picante" tema5="star"></item>
+      </caracteristicas>
     </plato>
 
     <plato tipo9="Pizzas">
@@ -110,7 +130,9 @@
       <description>Tomate, queso emmental, mozzarella, guindillas, albahaca fresca y pepperoni, salami o chorizo picante</description>
       <precio> 10,75€</precio>
       <calorias>278 calorias</calorias>
-      <caracteristicas></caracteristicas>
+       <caracteristicas>
+      <item tema="carne" tema3="pizza" tema2="picante" tema5="star"></item>
+      </caracteristicas>
     </plato>
 
      <plato tipo9="Pizzas">
@@ -118,7 +140,9 @@
       <description>Tomate, queso provola ahumada, pimiento rojo escalibado, espárragos y calabacín</description>
       <precio> 12,50€</precio>
       <calorias>250 calorias</calorias>
-      <caracteristicas></caracteristicas>
+       <caracteristicas>
+      <item tema3="pizza" tema4="vegetal"></item>
+      </caracteristicas>
     </plato>
  
       <plato tipo10="Pastas">
@@ -126,7 +150,9 @@
       <description>Pasta con salsa a elegir entre: Carbonara, Boloñesa, Pesto, Puttanesca o Funghi</description>
       <precio>7,60€</precio>
       <calorias>250 calorias</calorias>
-      <caracteristicas></caracteristicas>
+      <caracteristicas>
+       <item tema6="pasta"></item>
+      </caracteristicas>
     </plato>
 
     <plato tipo10="Pastas">
@@ -134,7 +160,9 @@
       <description>Pasta con salsa a elegir entre: Carbonara, Boloñesa, Pesto, Puttanesca o Funghi</description>
       <precio> 7,90€</precio>
       <calorias>250 calorias</calorias>
-      <caracteristicas></caracteristicas>
+      <caracteristicas>
+       <item tema6="pasta"></item>
+      </caracteristicas>
     </plato>
 
     <plato tipo10="Pastas">
@@ -142,7 +170,9 @@
       <description>Pasta con salsa a elegir entre: Carbonara, Boloñesa, Pesto, Puttanesca o Funghi</description>
       <precio>7,60€</precio>
       <calorias>250 calorias</calorias>
-      <caracteristicas></caracteristicas>
+      <caracteristicas>
+       <item tema6="pasta"></item>
+      </caracteristicas>
     </plato>
     
     <plato tipo11="Ensaladas">
@@ -150,7 +180,9 @@
       <description>Mezclum de hojas, fresas, jamón serrano, rulo de cabra gratinado y reducción de modena con frutos secos</description>
       <precio>8,95€</precio>
       <calorias>300 calorias</calorias>
-      <caracteristicas></caracteristicas>
+      <caracteristicas>
+      <item tema4="vegetal" tema="carne"></item>
+      </caracteristicas>
     </plato>
 
     <plato tipo11="Ensaladas">
@@ -158,7 +190,9 @@
       <description>Mezclum de hojas, palomitas de pollo, pasas, tostones, parmesano y salsa cesar</description>
       <precio>8,75€</precio>
       <calorias>320 calorias</calorias>
-      <caracteristicas></caracteristicas>
+      <caracteristicas>
+      <item tema4="vegetal" tema="carne"></item>
+      </caracteristicas>
     </plato>
 
     <plato tipo11="Ensaladas">
@@ -166,7 +200,9 @@
       <description>Mezclum de hojas, salmón ahumado, anchoas, huevas de lumpo, cherrys, queso feta y salsa de philadelphia con eneldo</description>
       <precio>9,30€</precio>
       <calorias>273 calorias</calorias>
-      <caracteristicas></caracteristicas>
+      <caracteristicas>
+      <item tema4="vegetal"></item>
+      </caracteristicas>
     </plato>
    
     <plato tipo12="Hamburguesas">
@@ -174,7 +210,9 @@
       <description>Black angus 100% y queso cheddar</description>
       <precio>8,90€</precio>
       <calorias>295 calorias</calorias>
-      <caracteristicas></caracteristicas>
+      <caracteristicas>
+      <item tema12="burger" tema="carne"></item>
+      </caracteristicas>
     </plato>
     
     <plato tipo12="Hamburguesas">
@@ -182,7 +220,9 @@
       <description>Black angus 100% con guacamole, cheddar tomate y jalapeños</description>
       <precio>10,30€</precio>
       <calorias>340 calorias</calorias>
-      <caracteristicas></caracteristicas>
+      <caracteristicas>
+      <item tema12="burger" tema="carne" tema2="picante" tema5="star"></item>
+      </caracteristicas>
     </plato>
 
     <plato tipo12="Hamburguesas">
@@ -190,7 +230,9 @@
       <description>Black angus 100% con salsa barbacoa, beicon, queso cheddar y aro de cebolla al panko</description>
       <precio>10,50€</precio>
       <calorias>352 calorias</calorias>
-      <caracteristicas></caracteristicas>
+       <caracteristicas>
+      <item tema12="burger" tema="carne" tema5="star"></item>
+      </caracteristicas>
     </plato>
     
     <plato tipo12="Hamburguesas">
@@ -198,7 +240,9 @@
       <description>Pechuga de pollo rebozada en cereales con salsa de mahonesa, lechuga, tomate y cebolla deshidratada</description>
       <precio>9,40€</precio>
       <calorias>280 calorias</calorias>
-      <caracteristicas></caracteristicas>
+       <caracteristicas>
+      <item tema12="burger" tema="carne"></item>
+      </caracteristicas>
     </plato>
 
   <plato tipo12="Hamburguesas">
@@ -206,7 +250,9 @@
       <description>Burger Beyond Meat con salsa de tomate, queso scamorza ahumado, lechuga y cebolla caramelizada</description>
       <precio>9,90€</precio>
       <calorias>243 calorias</calorias>
-      <caracteristicas></caracteristicas>
+      <caracteristicas>
+      <item tema12="burger" tema4="vegetal"></item>
+      </caracteristicas>
   </plato>
 
   <plato tipo13="Sin gluten">
@@ -214,7 +260,9 @@
       <description>Pide la pizza que mas te guste de la carta y marca la casilla sin gluten</description>
       <precio>Depende de la hamburguesa</precio>
       <calorias>266 calorias</calorias>
-      <caracteristicas></caracteristicas>
+      <caracteristicas>
+      <item tema11="singluten" tema3="pizza"></item>
+      </caracteristicas>
   </plato>
 
   <plato tipo13="Sin gluten">
@@ -222,7 +270,9 @@
       <description>Pide la hamburguesa que mas te guste de la carta sin gluten</description>
       <precio>Depende de la hamburguesa</precio>
       <calorias>243 calorias</calorias>
-      <caracteristicas></caracteristicas>
+      <caracteristicas>
+      <item tema11="singluten" tema12="burger"></item>
+      </caracteristicas>
   </plato>
 
  <plato tipo13="Sin gluten">
@@ -230,7 +280,9 @@
       <description>Pasta con salsa a elegir rellena con carne de cerdo</description>
       <precio>9,80€</precio>
       <calorias>230 calorias</calorias>
-      <caracteristicas></caracteristicas>
+      <caracteristicas>
+      <item tema11="singluten" tema="carne" tema5="star"></item>
+      </caracteristicas>
   </plato>
 
   <plato tipo14="Postres">
@@ -238,7 +290,9 @@
       <description>Tarta echa con base de queso y acompañada con frutos del bosque</description>
       <precio>5,20€</precio>
       <calorias>321 calorias</calorias>
-      <caracteristicas></caracteristicas>
+      <caracteristicas>
+      <item tema9="tarta"></item>
+      </caracteristicas>
   </plato>
 
   <plato tipo14="Postres">
@@ -246,7 +300,9 @@
       <description> Huevo, cacao en polvo, bizcocho de soletilla, mascarpone y café</description>
       <precio>5,50€</precio>
       <calorias>492 calorias</calorias>
-      <caracteristicas></caracteristicas>
+      <caracteristicas>
+       <item tema5="star" tema9="tarta" ></item>
+      </caracteristicas>
   </plato>
 
   <plato tipo14="Postres">
@@ -254,7 +310,9 @@
       <description>Panna cotta acompañada con salsa de caramelo </description>
       <precio>3,95€</precio>
       <calorias>148 calorias</calorias>
-      <caracteristicas></caracteristicas>
+      <caracteristicas>
+      <item tema10="postre"></item>
+      </caracteristicas>
   </plato>
 
   <plato tipo14="Postres">
@@ -262,7 +320,9 @@
       <description>Helado natural con sabor a elegir entre: Fresa, Chocolate, Menta, Vainilla o Fresa</description>
       <precio>3,50€</precio>
       <calorias>100 calorias</calorias>
-      <caracteristicas></caracteristicas>
+      <caracteristicas>
+      <item tema8="helado"></item>
+      </caracteristicas>
   </plato>
 
   <plato tipo15="Infantil">
@@ -270,7 +330,9 @@
       <description>Nuggets de pollo con pattaas fritas para los mas peques</description>
       <precio>4,50€</precio>
       <calorias>230 calorias</calorias>
-      <caracteristicas></caracteristicas>
+      <caracteristicas>
+       <item tema7="infantil" tema="carne"></item>
+      </caracteristicas>
   </plato>
 
   <plato tipo15="Infantil">
@@ -278,7 +340,9 @@
       <description>Pizza Proschiutto pequeña para los más peques</description>
       <precio>3,50€</precio>
       <calorias>266 calorias</calorias>
-      <caracteristicas></caracteristicas>
+      <caracteristicas>
+       <item tema7="infantil" tema3="pizza" tema="carne"></item>
+      </caracteristicas>
   </plato>
 
   
@@ -287,7 +351,9 @@
       <description>Helado de sabor a elegir</description>
       <precio>Entra gratis en el menú</precio>
       <calorias>100 calorias</calorias>
-      <caracteristicas></caracteristicas>
+      <caracteristicas>
+      <item tema7="infantil" tema8="helado"></item>
+      </caracteristicas>
   </plato>
 
 </menu>
