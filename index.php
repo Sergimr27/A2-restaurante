@@ -8,7 +8,7 @@
     <!-- hoja de estilos -->
     <link rel="stylesheet" href="./css/style.css">
     <!-- título de página -->
-    <title>El Diablo Italiano</title>
+    <title>IL DIAVOLO</title>
     <!-- ícono de pàgina -->
     <link rel="shortcut icon" href="./img/diablo.png">
     <!-- fuentes -->
@@ -20,7 +20,7 @@
 </head>
 <body>
 <div class='column-1'>
-    <h1>El Diablo Italiano</h1>
+    <h1>IL DIAVOLO</h1>
     </div>
     <div class='column-2'>
     <h1>Menú</h1>

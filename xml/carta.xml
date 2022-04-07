@@ -105,10 +105,10 @@
     </plato>
 
     <plato tipo9="Pizzas">
-      <title>Pizza Vegetalia</title>
-      <description>Tomate, queso provola ahumada, pimiento rojo escalibado, espárragos y calabacín</description>
-      <precio> 12,50€</precio>
-      <calorias>250 calorias</calorias>
+      <title>Pizza Diavola</title>
+      <description>Tomate, queso emmental, mozzarella, guindillas, albahaca fresca y pepperoni, salami o chorizo picante</description>
+      <precio> 10,75€</precio>
+      <calorias>278 calorias</calorias>
       <caracteristicas></caracteristicas>
     </plato>
 
