@@ -55,10 +55,20 @@ foreach($menu->plato as $plato){
         echo "<br>";
         echo $plato->calorias;
         echo "<br>";
-        echo "<br>";
         if(isset($plato->caracteristicas->item['tema'])==(string)'carne'){
             echo '<img src="img/carne.svg" alt="">';
-            }
+            
+        }
+        if(isset($plato->caracteristicas->item['tema2'])==(string)'picante'){
+            echo '<img src="img/picante.svg" alt="">';
+           
+        }
+        if(isset($plato->caracteristicas->item['tema5'])==(string)'star'){
+            echo '<img src="img/star.svg" alt="">';
+            
+        }
+        echo "<br>";
+        echo "<br>";
     }
 
    
@@ -83,6 +93,27 @@ foreach($menu->plato as $plato){
         echo "<br>";
         echo $plato->calorias;
         echo "<br>";
+        if(isset($plato->caracteristicas->item['tema'])==(string)'carne'){
+            echo '<img src="img/carne.svg" alt="">';
+            
+        }
+        if(isset($plato->caracteristicas->item['tema2'])==(string)'picante'){
+            echo '<img src="img/picante.svg" alt="">';
+           
+        }
+        if(isset($plato->caracteristicas->item['tema3'])==(string)'pizza'){
+            echo '<img src="img/pizza.svg" alt="">';
+            
+        }
+        if(isset($plato->caracteristicas->item['tema4'])==(string)'vegetal'){
+            echo '<img src="img/vegetal.svg" alt="">';
+            
+        }
+        if(isset($plato->caracteristicas->item['tema5'])==(string)'star'){
+            echo '<img src="img/star.svg" alt="">';
+            
+        }
+        echo "<br>";
         echo "<br>";
     }
 
@@ -101,11 +132,32 @@ foreach($menu->plato as $plato){
         array_push($aux,(string)$plato['tipo12']);
     }
     if($plato['tipo12']=='Hamburguesas'){
-        echo $plato->title.'....................... '.$plato->precio;;
+        echo $plato->title.'.......................'.$plato->precio;;
         echo "<br>";
         echo $plato->description;
         echo "<br>";
         echo $plato->calorias;
+        echo "<br>";
+        if(isset($plato->caracteristicas->item['tema12'])==(string)'burger'){
+            echo '<img src="img/burger.svg" alt="">';
+            
+        }
+        if(isset($plato->caracteristicas->item['tema'])==(string)'carne'){
+            echo '<img src="img/carne.svg" alt="">';
+            
+        }
+        if(isset($plato->caracteristicas->item['tema4'])==(string)'vegetal'){
+            echo '<img src="img/vegetal.svg" alt="">';
+            
+        }
+        if(isset($plato->caracteristicas->item['tema5'])==(string)'star'){
+            echo '<img src="img/star.svg" alt="">';
+            
+        }
+        if(isset($plato->caracteristicas->item['tema2'])==(string)'picante'){
+            echo '<img src="img/picante.svg" alt="">';
+           
+        }
         echo "<br>";
         echo "<br>";
     }
@@ -131,6 +183,11 @@ foreach($menu->plato as $plato){
         echo $plato->description;
         echo "<br>";
         echo $plato->calorias;
+        echo "<br>";
+        if(isset($plato->caracteristicas->item['tema6'])==(string)'pasta'){
+            echo '<img src="img/pasta.svg" alt="">';
+            
+        }
         echo "<br>";
         echo "<br>";
     }
@@ -158,6 +215,15 @@ foreach($menu->plato as $plato){
         echo "<br>";
         echo $plato->calorias;
         echo "<br>";
+        if(isset($plato->caracteristicas->item['tema'])==(string)'carne'){
+            echo '<img src="img/carne.svg" alt="">';
+            
+        }
+        if(isset($plato->caracteristicas->item['tema4'])==(string)'vegetal'){
+            echo '<img src="img/vegetal.svg" alt="">';
+            
+        }
+        echo "<br>";
         echo "<br>";
     }
  
@@ -181,11 +247,26 @@ foreach($menu->plato as $plato){
         echo "<br>";
         echo $plato->description;
         echo "<br>";
-        echo $plato->calorias;
+        if(isset($plato->caracteristicas->item['tema11'])==(string)'singluten'){
+            echo '<img src="img/singluten.svg" alt="">';
+            
+        }
+        if(isset($plato->caracteristicas->item['tema3'])==(string)'pizza'){
+            echo '<img src="img/pizza.svg" alt="">';
+            
+        }
+        if(isset($plato->caracteristicas->item['tema12'])==(string)'burger'){
+            echo '<img src="img/burger.svg" alt="">';
+            
+        }
+        if(isset($plato->caracteristicas->item['tema5'])==(string)'star'){
+            echo '<img src="img/star.svg" alt="">';
+            
+        }
         echo "<br>";
         echo "<br>";
     }
-
+    
    
 }
 echo"</div>";
@@ -207,7 +288,25 @@ foreach($menu->plato as $plato){
         echo "<br>";
         echo $plato->calorias;
         echo "<br>";
+        if(isset($plato->caracteristicas->item['tema8'])==(string)'helado'){
+            echo '<img src="img/helado.svg" alt="">';
+            
+        }
+        if(isset($plato->caracteristicas->item['tema10'])==(string)'postre'){
+            echo '<img src="img/postre.svg" alt="">';
+            
+        }
+        if(isset($plato->caracteristicas->item['tema9'])==(string)'tarta'){
+            echo '<img src="img/tarta.svg" alt="">';
+            
+        }
+        if(isset($plato->caracteristicas->item['tema5'])==(string)'star'){
+            echo '<img src="img/star.svg" alt="">';
+            
+        }
         echo "<br>";
+        echo "<br>";
+
     }
 
    
@@ -231,20 +330,29 @@ foreach($menu->plato as $plato){
         echo "<br>";
         echo $plato->calorias;
         echo "<br>";
+        if(isset($plato->caracteristicas->item['tema8'])==(string)'helado'){
+            echo '<img src="img/helado.svg" alt="">';
+            
+        }
+        if(isset($plato->caracteristicas->item['tema'])==(string)'carne'){
+            echo '<img src="img/carne.svg" alt="">';
+            
+        }
+        if(isset($plato->caracteristicas->item['tema7'])==(string)'infantil'){
+            echo '<img src="img/infantil.svg" alt="">';
+            
+        }
+        if(isset($plato->caracteristicas->item['tema3'])==(string)'pizza'){
+            echo '<img src="img/pizza.svg" alt="">';
+            
+        }
+        echo "<br>";
         echo "<br>";
     }
 
    
 }
-if(isset($plato->caracteristicas->item['tema'])==(string)'carne'){
-    echo '<img src="img/carne.svg" alt="">';
-    }
-if(isset($plato->caracteristicas->item['tema1'])==(string)'picante'){
-    echo '<img src="img/picante.svg" alt="">';
-}
-if(isset($plato->caracteristicas->item['tema2'])==(string)'estrella'){
-    echo '<img src="img/estrella.svg" alt="">';
-}
+
 /* foreach($menu->plato as $plato){
     echo $plato->title.'............................ '.$plato->precio;;
     echo "<br>";
@@ -255,6 +363,7 @@ if(isset($plato->caracteristicas->item['tema2'])==(string)'estrella'){
     echo "<br>";
 } */
 ?>
+
 </body>
 </html>
 
