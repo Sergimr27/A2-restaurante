@@ -23,7 +23,7 @@
     <h1>IL DIAVOLO</h1>
     </div>
     <div class='column-2'>
-    <h1>Menú</h1>
+    <h2>Menú</h2>
     </div>
 
 <?php
@@ -352,7 +352,7 @@ foreach($menu->plato as $plato){
 
    
 }
-
+echo"</div>";
 /* foreach($menu->plato as $plato){
     echo $plato->title.'............................ '.$plato->precio;;
     echo "<br>";
@@ -363,7 +363,43 @@ foreach($menu->plato as $plato){
     echo "<br>";
 } */
 ?>
-
+<footer>
+    <img src="./img/star.svg" alt="">
+    <b>Plato estrella</b>
+    <br>
+    <img src="./img/pizza.svg" alt="">
+    <b>Pizza</b>
+    <br>
+    <img src="./img/burger.svg" alt="">
+    <b>Hamburguesa</b>
+    <br>
+    <img src="./img/picante.svg" alt="">
+    <b>Plato picante</b>
+    <br>
+    <img src="./img/tarta.svg" alt="">
+    <b>Tarta/bizcocho</b>
+    <br>
+    <img src="./img/singluten.svg" alt="">
+    <b>Plato sin gluten</b>
+    <br>
+    <img src="./img/carne.svg" alt="">
+    <b>Lleva carne</b>
+    <br>
+    <img src="./img/vegetal.svg" alt="">
+    <b>Plato vegano o que lleva verdura</b>
+    <br>
+    <img src="./img/pasta.svg" alt="">
+    <b>Pasta</b>
+    <br>
+    <img src="./img/infantil.svg" alt="">
+    <b>Menú Infantil</b>
+    <br>
+    <img src="./img/helado.svg" alt="">
+    <b>Helado</b>
+    <br>
+    <img src="./img/postre.svg" alt="">
+    <b>Postre dulce</b>
+</footer> 
 </body>
 </html>
 

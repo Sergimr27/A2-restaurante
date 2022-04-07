@@ -10,17 +10,22 @@ body {
     background-size: cover;
 }
 
+h1 {
+    color: red;
+}
+
 .column-1 {
     width: 100%;
     float: left;
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .column-2 {
     width: 100%;
     float: left;
     text-align: center;
+    text-decoration: underline;
 }
 
 .column-4 {
@@ -41,6 +46,15 @@ body {
 img {
     width: 20px;
     color: white;
+}
+
+footer {
+    width: 100%;
+    text-align: left;
+    float: left;
+    font-size: 1.5vw;
+    color: white;
+    text-align: center;
 }
 
 @media only screen and (max-width: 1100px) {
